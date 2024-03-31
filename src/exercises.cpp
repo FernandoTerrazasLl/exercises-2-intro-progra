@@ -48,7 +48,6 @@ void exercise_3(string torta) {
             cout << "Sin pastel :("<< endl;
             break;
         }
-        
       
     }
 }
