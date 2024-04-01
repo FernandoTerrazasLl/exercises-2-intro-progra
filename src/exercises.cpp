@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 void exercise_1(string doc){
   // TODO: YOUR CODE HERE
   int i= 0;
