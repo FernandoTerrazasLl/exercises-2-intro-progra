@@ -7,7 +7,6 @@ int main() {
 }
 
 void practice() {
-  cout << "hola" << endl;
 }
 
 
