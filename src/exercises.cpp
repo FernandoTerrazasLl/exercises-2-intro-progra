@@ -126,7 +126,6 @@ void exercise_9(string s) {
             
     }
 }
-
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
   
