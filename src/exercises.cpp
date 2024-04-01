@@ -22,6 +22,19 @@ void exercise_1(string doc){
 
 void exercise_2(string doc) {
   // TODO: YOUR CODE HERE
+  int doc_size1 = doc.size();
+    string doc_word;
+    while(i<=doc_size1){
+        char doc_char = doc[i];
+        if(doc_char=='\n' || doc_char==' '){
+            cout<< '[' << doc_word << ']' << endl;
+            doc_word ="";
+
+        }else {
+            doc_word = doc_word + doc_char;
+        }
+        ++i;
+    }
   
 }
 
