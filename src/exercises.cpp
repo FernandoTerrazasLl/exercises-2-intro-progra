@@ -40,6 +40,19 @@ void exercise_2(string doc) {
 
 void exercise_3(string torta) {
   // TODO: YOUR CODE HERE
+  int i= 0;
+    while(i < 10){
+        if(torta[i]=='1'){
+            cout << "Om-nom-nom :P" << endl;
+            i = i + 1;
+        }else if(torta[i]=='0'){
+            cout << "Sin pastel :("<< endl;
+            break;
+        }else{
+
+        }
+      
+    }
   
 }
 
