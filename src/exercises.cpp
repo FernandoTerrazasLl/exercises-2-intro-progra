@@ -123,6 +123,7 @@ void exercise_9(string s) {
         case 2:
             cout << second << endl;
             break;
+            
     }
 }
 
