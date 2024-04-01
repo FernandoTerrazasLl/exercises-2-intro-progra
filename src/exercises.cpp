@@ -24,8 +24,7 @@ void exercise_2(string doc) {
   // TODO: YOUR CODE HERE
   int doc_size1 = doc.size();
     string doc_word;
-    int i=0;
-    while(i<=doc_size1){
+    for(int i=0; i<=doc_size1; ++i){
         char doc_char = doc[i];
         if(doc_char=='\n' || doc_char==' '){
             cout<< '[' << doc_word << ']' << endl;
@@ -34,7 +33,6 @@ void exercise_2(string doc) {
         }else {
             doc_word = doc_word + doc_char;
         }
-        ++i;
     }
   
 }
