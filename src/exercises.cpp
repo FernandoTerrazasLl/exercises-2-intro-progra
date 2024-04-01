@@ -11,12 +11,13 @@ void exercise_1(string doc){
     while(i<=doc_size1){
         char doc_char = doc[i];
         
-        if(doc_char=='\n' || doc_char==' ') {
+        if(doc_char==' ') {
             cout << i << endl;
 
         }
         ++i;
     }
+    cout << doc.size()<< endl;
 }
 
 void exercise_2(string doc) {
