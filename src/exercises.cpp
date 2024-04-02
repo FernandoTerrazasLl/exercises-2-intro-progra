@@ -88,7 +88,7 @@ int exercise_6(int n) {
     int suma = 0;
     string string_n = to_string(n);
     if(n<=0){
-        cout<< 0<< endl;
+        return 0;
     }else{
     for(int i=0; i<n_size; ++i){
         int digits = string_n[i];
