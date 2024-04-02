@@ -59,15 +59,15 @@ void exercise_3(string torta) {
 
 void exercise_4(int numero) {
   // TODO: YOUR CODE HERE
-  int i = 1;
+    int i = 1;
     int multiply = 1;
     if(numero < 0){
         cout << "Ingresar numero positivo"<< endl;
 
-    }else if(numero>10){
+    }else if(numero>14){
         cout << "Resultado se demorara en ser calculado, reintentar" << endl;
 
-    }else if(numero>=0 && numero <10){
+    }else if(numero>=0 && numero <=14){
         while(i<=numero){
                 multiply *=i;
                 ++i;
