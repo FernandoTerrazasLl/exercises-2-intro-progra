@@ -140,8 +140,16 @@ void exercise_9(string s) {
 }
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-  
-  return 0;
+      int mcd = 1;
+    for(int i=2; a>=i && b>=i; ++i){
+
+        while(a%i==0 && b%i==0){
+            mcd = mcd *i;
+            a = a/i;
+            b = b/i;
+        }
+    }
+    return mcd;
 }
 
 void exercise_11() {
