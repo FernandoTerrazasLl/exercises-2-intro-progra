@@ -23,12 +23,13 @@ void exercise_1(string doc){
 
 void exercise_2(string doc) {
   // TODO: YOUR CODE HERE
-      int doc_size1 = doc.size();
+    int doc_size1 = doc.size();
     string doc_word;
     int i=0;
     while(i<=doc_size1){
-        char doc_char = doc[i];
-        if(doc_char==' '|| i==doc_size1){
+        string doc_char = to_string(doc[i]);
+
+        if(doc_char==" "|| i==doc_size1 && doc != ""){
             cout<< '[' << doc_word << ']' << endl;
             doc_word ="";
 
