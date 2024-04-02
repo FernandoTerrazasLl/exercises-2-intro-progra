@@ -23,19 +23,20 @@ void exercise_1(string doc){
 
 void exercise_2(string doc) {
   // TODO: YOUR CODE HERE
-  int doc_size1 = doc.size();
+      int doc_size1 = doc.size();
     string doc_word;
-    for(int i=0; i<=doc_size1; ++i){
+    int i=0;
+    while(i<=doc_size1){
         char doc_char = doc[i];
-        if(doc_char=='\n' || doc_char==' '){
+        if(doc_char==' '|| i==doc_size1){
             cout<< '[' << doc_word << ']' << endl;
             doc_word ="";
 
         }else {
             doc_word = doc_word + doc_char;
         }
+        ++i;
     }
-  
 }
 
 void exercise_3(string torta) {
@@ -171,6 +172,13 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
+    double UI = 1;
+    cout << "U0 = 1"<< endl;
+    for(int i=1; 10>=i; ++i){
+        double result = UI/(i +1);
+        cout << "U" << i << " = " << UI << endl;
+        UI = result;
+    }
 }
 
 long exercise_13(int n, int k) {
