@@ -27,9 +27,9 @@ void exercise_2(string doc) {
     string doc_word;
     int i=0;
     while(i<=doc_size1){
-        string doc_char = to_string(doc[i]);
+        char doc_char = doc[i];
 
-        if(doc_char==" "|| i==doc_size1 && doc != ""){
+        if(doc_char==' '|| i==doc_size1 && doc != ""){
             cout<< '[' << doc_word << ']' << endl;
             doc_word ="";
 
