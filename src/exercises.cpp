@@ -84,7 +84,14 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
-    
+    int n_size = to_string(n).size();
+    int suma = 0;
+    string string_n = to_string(n);
+    for(int i=0; i<n_size; ++i){
+        int digits = string_n [i];
+        suma +=  digits -'0';
+    }
+    cout << suma << endl;
 }
 
 void exercise_7(int n) {
