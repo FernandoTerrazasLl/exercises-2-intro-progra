@@ -100,12 +100,12 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
-    double sum;
+    double sum = 0;
     for(int i=1;n>=i; ++i){
 
       sum = sum + (pow((-1), (i+1)))/i;
     }
-    cout <<sum << endl;
+    cout << sum << endl;
     
 }
 
