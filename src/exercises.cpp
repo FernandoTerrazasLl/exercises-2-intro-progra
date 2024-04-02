@@ -160,6 +160,12 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
+  double UI = 1;
+    for(int i=1; 10>=i; ++i){
+        double result = UI/(i +1);
+        cout << UI << endl;
+        UI = result;
+    }
 }
 
 void exercise_12() {
