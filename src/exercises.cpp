@@ -65,7 +65,7 @@ void exercise_4(int numero) {
         cout << "El numero es negativo. Intentelo de nuevo"<< endl;
 
     }else if(numero>14){
-        cout << "Resultado se demorara en ser calculado, reintentar" << endl;
+        cout << "El numero es muy grande. Intentelo de nuevo" << endl;
 
     }else if(numero>=0 && numero <=14){
         while(i<=numero){
