@@ -46,7 +46,7 @@ void exercise_3(string torta) {
             cout << "Om-nom-nom :P" << endl;
             i = i + 1;
         }else if(torta[i]=='0'){
-            cout << "Sin pastel :("<< endl;
+            cout << "No cake :("<< endl;
             break;
         }else{
             i = i+ 1;
