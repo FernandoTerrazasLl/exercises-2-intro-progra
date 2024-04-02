@@ -94,7 +94,7 @@ int exercise_6(int n) {
         int digits = string_n[i];
         suma = suma + digits -'0';
         }
-    cout << suma << endl;
+    return suma;
     }
 }
 
