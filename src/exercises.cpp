@@ -59,7 +59,8 @@ void exercise_3(string torta) {
 
 void exercise_4(int numero) {
   // TODO: YOUR CODE HERE
-  int multiply = 1;
+    int i = 1;
+    int multiply = 1;
     if(numero < 0){
         cout << "Ingresar numero positivo"<< endl;
 
