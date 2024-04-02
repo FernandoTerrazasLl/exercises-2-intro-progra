@@ -91,8 +91,8 @@ int exercise_6(int n) {
         cout<< 0<< endl;
     }else{
     for(int i=0; i<n_size; ++i){
-        int digits = string_n [i];
-        suma +=  digits -'0';
+        int digits = string_n[i];
+        suma = suma + digits -'0';
         }
     cout << suma << endl;
     }
