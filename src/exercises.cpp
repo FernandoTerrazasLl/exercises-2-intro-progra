@@ -173,18 +173,16 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
-    double UI = 1;
-    cout << "U0 = 1"<< endl;
-    for(int i=1; 10>=i; ++i){
-        double result = UI/(i +1);
-        cout << "U" << i << " = " << UI << endl;
-        UI = result;
-    }
+
 }
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  return 0;
+  int sum =0;
+  for(int i=1; n>=i; ++i){
+    sum = sum + pow(i,k);
+  }
+  return sum;
 }
 
 string exercise_14(int n) {
