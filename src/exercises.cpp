@@ -122,6 +122,7 @@ void exercise_8(string s) {
             s_2 = s_2 + s_letter;
         }
     }
+
     bool esPalindromo = true;
     int n = s_2.size();
 
@@ -137,7 +138,6 @@ void exercise_8(string s) {
     } else {
         cout << "NO" << endl;
     }
-}
 }
 
 void exercise_9(string s) {
