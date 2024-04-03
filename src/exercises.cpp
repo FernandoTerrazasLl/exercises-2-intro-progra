@@ -112,17 +112,15 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
     int s_size=s.size();
     string s_2;
-    for(int i=0;s_size>=i ; ++i){
+    for(int i=0;s_size-1>=i ; ++i){
 
         char s_letter = s[i];
         if(s_letter!=' '){
             s_2 = s_2 + s_letter;
         }
     }
-
     bool esPalindromo = true;
     int n = s_2.size();
 
@@ -133,11 +131,12 @@ void exercise_8(string s) {
         }
     }
 
-    if (esPalindromo) {
+    if(esPalindromo) {
         cout << "YES" << endl;
-    } else {
+    }else {
         cout << "NO" << endl;
     }
+
 }
 
 void exercise_9(string s) {
