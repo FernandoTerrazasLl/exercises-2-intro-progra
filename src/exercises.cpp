@@ -113,7 +113,7 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-      int s_size=s.size();
+    int s_size=s.size();
     string s_2;
     for(int i=0;s_size>=i ; ++i){
 
@@ -122,21 +122,22 @@ void exercise_8(string s) {
             s_2 = s_2 + s_letter;
         }
     }
-
-
     bool esPalindromo = true;
+    int n = s_2.size();
 
-    for(int i=0; s_2.size()>=i; ++i){
-        
-        if(s_2[i] != s_2[s_2.size()-1-i]){
+    for (int i = 0; i < n / 2; ++i) {
+        if (s_2[i] != s_2[n - 1 - i]) {
             esPalindromo = false;
+            break;
         }
     }
-    if(esPalindromo){
-        cout<<  "YES" << endl;
-    }else{
-        cout<< "NO" << endl;
+
+    if (esPalindromo) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
     }
+}
 }
 
 void exercise_9(string s) {
