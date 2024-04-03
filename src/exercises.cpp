@@ -42,7 +42,7 @@ void exercise_2(string doc) {
 
 void exercise_3(string torta) {
   // TODO: YOUR CODE HERE
-      int i= 0;
+    int i= 0;
     while(i < 20){
         if(torta[i]=='1'){
             cout << "Om-nom-nom :P" << endl;
@@ -53,8 +53,7 @@ void exercise_3(string torta) {
         }else{
             i = i+ 1;
         }
-        
-      
+    
     }
   
 }
