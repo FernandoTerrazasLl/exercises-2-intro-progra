@@ -256,7 +256,6 @@ void exercise_15(int decimal) {
     }
     cout << result << endl;
 }
-}
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
