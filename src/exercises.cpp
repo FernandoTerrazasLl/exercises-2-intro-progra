@@ -243,7 +243,7 @@ void exercise_15(int decimal) {
         }
         binary = binary + '1';
 
-        for(int i = 0; binary.size()>=i; ++i){
+        for(int i = 1; binary.size()>=i; ++i){
             result = result + binary[binary.size()-i];
 
         }
