@@ -257,13 +257,16 @@ void exercise_16(int divident, int divider) {
     int cociente = 0;
     int residuo = divident;
     int i = 0;
-    for(i; residuo-divider >= 0; ++i){
-        residuo = residuo - divider;
-        
-    }
+    if(divider!=0){
+        for(i; residuo-divider >= 0; ++i){
+            residuo = residuo - divider;
+            
+        }
     cociente = i;
+    
     cout << cociente << endl;
     cout << residuo << endl;
+    }
 }
 
 void exercise_17(int n) {
