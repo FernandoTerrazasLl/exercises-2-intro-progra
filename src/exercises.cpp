@@ -234,7 +234,7 @@ void exercise_15(int decimal) {
     }else if(decimal == 1){
         result = '1';
 
-    }else { 
+    }else{ 
     for(int i = 0; decimal!=1 ; ++i){
            
         binary = binary + to_string(decimal%2);
@@ -243,19 +243,15 @@ void exercise_15(int decimal) {
     
     }
     binary = binary + '1';
-    
+
+    for(int i = 0; binary.size()>=i; ++i){
+            result = result + binary[binary.size()-i];
+
     }
-
-    for(int i = 0; binary.size()>i; ++i){
-        if(binary[i]=='1'){
-            result = result +'0';
-        }else if(binary[i]=='0'){
-            result = result +'1';
-        }
-
     }
     cout << result << endl;
 }
+
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
