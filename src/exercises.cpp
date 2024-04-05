@@ -225,7 +225,6 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
     string binary;
     string result;
     if(decimal==0){
@@ -235,21 +234,21 @@ void exercise_15(int decimal) {
         result = '1';
 
     }else{ 
-    for(int i = 0; decimal!=1 ; ++i){
+        for(int i = 0; decimal!=1 ; ++i){
            
-        binary = binary + to_string(decimal%2);
-        decimal = decimal/2;
+            binary = binary + to_string(decimal%2);
+            decimal = decimal/2;
 
     
-    }
-    binary = binary + '1';
+        }
+        binary = binary + '1';
 
-    for(int i = 0; binary.size()>=i; ++i){
+        for(int i = 0; binary.size()>=i; ++i){
             result = result + binary[binary.size()-i];
 
+        }
     }
-    }
-    cout << result << endl;
+        cout << result << endl;
 }
 
 
