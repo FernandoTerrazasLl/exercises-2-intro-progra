@@ -264,7 +264,7 @@ void exercise_16(int divident, int divider) {
         }
     cociente = i;
     
-    cout << cociente << endl;
+    cout << cociente << " ";
     cout << residuo << endl;
     }
 }
