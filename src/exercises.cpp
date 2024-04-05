@@ -227,14 +227,24 @@ string exercise_14(int n) {
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
     string binary;
-    
+    string result;
+    if(decimal==0){
+        result = '0';
+            
+    }else if(decimal == 1){
+        result = '1';
+
+    }else { 
     for(int i = 0; decimal!=1 ; ++i){
+           
         binary = binary + to_string(decimal%2);
         decimal = decimal/2;
 
+    
     }
     binary = binary + '1';
-    string result;
+    
+    }
 
     for(int i = 0; binary.size()>i; ++i){
         if(binary[i]=='1'){
@@ -244,6 +254,8 @@ void exercise_15(int decimal) {
         }
 
     }
+    cout << result << endl;
+}
 }
 
 void exercise_16(int divident, int divider) {
