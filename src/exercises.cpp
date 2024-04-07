@@ -285,7 +285,7 @@ void exercise_17(int n) {
         }
         
         if (esPrimo) {
-            cout << k << endl; 
+            cout << k << " "; 
             ++i; 
         }
         
