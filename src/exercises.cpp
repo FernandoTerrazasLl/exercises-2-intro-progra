@@ -326,10 +326,10 @@ if(fin>=debut){
             cout << debut << "->" << i << endl;
         }
     }else{
-            cout << "El numero de fin no debe de ser menor al inicial" << endl;
+            cout << "El numero debe de ser positivo y mayor a zero" << endl;
         }
     }else{
-        cout << "El numero debe de ser positivo y mayor a zero" << endl;
+        cout << "El numero de fin no debe de ser menor al inicial" << endl;
     
     }
 }
