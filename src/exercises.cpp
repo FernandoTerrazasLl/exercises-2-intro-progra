@@ -81,7 +81,7 @@ void exercise_4(int numero) {
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-      string espacio1;
+    string espacio1;
     switch(n){
         case 1:
             espacio1 =  " "s;
@@ -117,7 +117,10 @@ void exercise_5(int n, int k) {
             }
             ++r;
         }
-        if(to_string(i).size()==1 && espacio1[espacio1.size()-1]!='\n'){
+        if(n==1 && espacio1.size()==1){
+            espacio1 = espacio1 + to_string(i);
+        }
+        else if(to_string(i).size()==1 && espacio1[espacio1.size()-1]!='\n'){
             _i = "  " + to_string(i);
             espacio1 = espacio1 + _i;
         }else if(to_string(i).size()==1 && espacio1[espacio1.size()-1]=='\n'){
