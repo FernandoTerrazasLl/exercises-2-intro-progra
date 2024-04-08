@@ -302,10 +302,9 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
-  // TODO: YOUR CODE HERE
-  if(debut>0 && fin>0){
-    if(fin>=debut){
-        
+if(fin>=debut){
+    if(debut>0 && fin>0){
+
         for(debut; debut<=fin; ++debut){
             int i = 0;
             int debut1= debut;
@@ -326,10 +325,11 @@ void exercise_18_19(int debut, int fin) {
             }
             cout << debut << "->" << i << endl;
         }
-        }else{
+    }else{
             cout << "El numero de fin no debe de ser menor al inicial" << endl;
         }
     }else{
         cout << "El numero debe de ser positivo y mayor a zero" << endl;
+    
     }
 }
