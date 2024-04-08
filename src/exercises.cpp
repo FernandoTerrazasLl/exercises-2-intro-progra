@@ -132,7 +132,7 @@ void exercise_5(int n, int k) {
         }
         
     }
-    cout << espacio1;
+    cout << espacio1 << " " << endl;
 }
 
 int exercise_6(int n) {
